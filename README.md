@@ -17,7 +17,19 @@ Aplicación web para buscar GIFs en tiempo real usando la API de [Giphy](https:/
 | Giphy API              | v1      | Proveedor de GIFs                                |
 | Vitest                 | ^4.1    | Framework de testing (nativo con Vite)           |
 | @testing-library/react | ^16.3   | Renderizado y queries de componentes React       |
-| CSS vanilla            | —       | Estilos globales (diseñados por **Antigravity**) |
+| CSS vanilla            | —       | Estilos globales del proyecto                    |
+
+---
+
+## 🎨 Estilos CSS
+
+El archivo [`index.css`](./src/index.css) aplica los estilos globales de la aplicación:
+
+- 🌑 **Fondo oscuro** (`#242424`) con texto blanco
+- 🔤 **Tipografía** con Google Fonts — [Montserrat Alternates](https://fonts.google.com/specimen/Montserrat+Alternates) (light, regular y bold)
+- 📐 **Layout** con Flexbox (header, barra de búsqueda, búsquedas previas) y CSS Grid (grilla de GIFs)
+- 📱 **Diseño responsivo** con media queries: 2 columnas (móvil), 3 (768px), 4 (1024px), 5 (1280px+)
+- 🖱️ **Transiciones** suaves en hover para botones y chips de búsqueda
 
 ---
 
@@ -76,22 +88,6 @@ Los datos mockeados para los tests se encuentran en `test/mock/`:
 
 ---
 
-## ✨ Estilo CSS — Hecho con Antigravity
-
-El diseño visual de esta aplicación fue creado con la ayuda de **Antigravity**, el asistente de codificación con IA de **Google DeepMind**.
-
-El CSS cubre:
-
-- 🎨 Paleta de colores oscura y moderna con acentos en violeta/púrpura
-- 💎 Efectos de glassmorphism en tarjetas y header
-- 🌊 Gradientes animados de fondo
-- 🖱️ Micro-animaciones y transiciones suaves en hover
-- 📐 Layout responsivo con CSS Grid y Flexbox
-- 🔤 Tipografía con Google Fonts (Outfit)
-
-> El estilo fue generado íntegramente por **Antigravity** como parte de una sesión de pair-programming asistida por IA.
-
----
 
 ## 🗂️ Estructura del proyecto
 
