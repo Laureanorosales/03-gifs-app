@@ -1,6 +1,6 @@
 # 🎞️ GifsApp — Buscador de Gifs
 
-> Proyecto del curso **React de 0 a Experto** de Fernando Herrera.
+> Proyecto de la **Sección 6** del curso [**React de 0 a Experto**](https://www.udemy.com/course/react-cero-experto/) de Fernando Herrera en Udemy.
 
 Aplicación web para buscar GIFs en tiempo real usando la API de [Giphy](https://developers.giphy.com/). Permite escribir un término de búsqueda, ver resultados animados y mantener un historial de búsquedas previas.
 
